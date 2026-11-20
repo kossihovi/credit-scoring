@@ -1,0 +1,11 @@
+# Dépendances d'exécution de l'API et de l'interface
+fastapi
+uvicorn[standard]
+pydantic>=2
+xgboost>=2.0
+pandas>=2.0
+numpy
+joblib
+streamlit
+requests
+plotly
