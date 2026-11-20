@@ -23,7 +23,8 @@ Le seuil est choisi en minimisant le coût total sur un jeu de validation, et no
 ```
 .
 ├── credit_scoring/
-│   └── pipeline.py          # Features, entraînement, seuil, scoring de nouvelles données (+ CLI)
+│   ├── pipeline.py          # Features, entraînement, seuil, scoring de nouvelles données (+ CLI)
+│   ├-- analysis.py          # Analyse d'équité
 ├── deploy/
 │   ├── api.py               # API FastAPI (/health, /predict)
 │   ├── streamlit_app.py     # Interface de saisie et de monitoring
